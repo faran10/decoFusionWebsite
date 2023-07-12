@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    position: relative;
+}
+.container-fluid .navbar-brand img{
+    width: 150px;
+}
+
+
+nav .container-fluid form{
+    right: 0;
+    margin-right: 50px;
+    margin-top: 10px;  
+    position: absolute;  
+}
+nav .container-fluid form a i {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icons #insta {
+    color: #b92b27;
+    color: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    color: linear-gradient(to right, #1565C0, #b92b27); 
+}
+
+.card {
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+#allProducts h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+.accordion {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+#contact {
+    margin-top: 80px;
+    height: 250px;
+    background-color: lightgray;
+}
+
+@media (max-width: 955px)
+{
+  #contact {
+    height: 280px;
+}
+}
+@media (max-width: 850px)
+{
+  #contact {
+    height: 300px;
+}
+}
+@media (max-width: 780px)
+{
+  #contact {
+    height: 320px;
+}
+.row {
+    margin-left: -60px;
+}
+}
+@media (max-width: 660px)
+{
+  #contact {
+    height: 340px;
+}
+.row {
+    margin-left: -80px;
+}
+}
+@media (max-width: 620px)
+{
+  #contact {
+    height: 340px;
+}
+.row {
+    margin-left: -80px;
+}
+}
+@media (max-width: 605px)
+{
+  #contact {
+    height: 370px;
+}
+.row {
+    margin-left: -100px;
+}
+}
+@media (max-width: 575px)
+{
+  #contact {
+    height: 450px;
+    text-align: center;
+}
+.row {
+    margin-left: -100px;
+}
+}
+
+@media (max-width: 384px)
+{
+  #contact {
+    height: 500px;
+    text-align: center;
+}
+.row {
+    margin-left: -100px;
+}
+}
+@media (max-width: 303px)
+{
+  #contact {
+    height: 600px;
+    text-align: center;
+}
+.row {
+    margin-left: -100px;
+}
+}
+
+.col-sm-6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+}
+.row .card i{
+    display: inline-block;
+}
+.row .card p {
+    font-family: sans-serif;
+}
+.row h4{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 100;
+}

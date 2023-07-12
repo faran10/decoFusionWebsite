@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid
+{
+    position: relative;
+    height: 100px;
+}
+.container-fluid img {
+    width: 100px;
+}
+.container-fluid a {
+    font-weight: bold;
+    font-size: 30px;
+}
+.container-fluid .dropdown {
+    position: absolute;
+    left: 0;
+    margin-left: 150px;
+}
+
+.container-fluid .dropdown .dropdown-item {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container1 .card {
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    height: 100px;
+}
+.container #back {
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.container #sports {
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+.col-sm-6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+}
+.row .card i{
+    display: inline-block;
+}
+.row .card p {
+    font-family: sans-serif;
+}
+.row h4{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 100;
+}
